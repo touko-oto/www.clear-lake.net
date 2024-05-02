@@ -7,8 +7,8 @@ const noto_sans_jp = Noto_Sans_JP({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "clear-lake.net",
-  description: "透湖の詳細プロフィール,SNSアカウントまとめ",
-  keywords: "透湖, プロフィール, リンク集, アニメ, SNS, Twitter, Misskey, GitHub, Bluesky, Thread, YouTube, PixAI",
+  description: "透湖の詳細プロフィール, SNSアカウントまとめ",
+  keywords: "透湖, プロフィール, リンク集, アニメ, Blog, SNS, Twitter, Misskey, GitHub, Bluesky, Thread, YouTube, PixAI",
 };
 
 export default function RootLayout({
@@ -16,6 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="ja">
       <body className={noto_sans_jp.className}>
