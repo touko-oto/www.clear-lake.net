@@ -37,7 +37,7 @@ export default async function Home() {
         <div className="text-2xl text-blue-900 dark:text-blue-100">透湖 -Touko-</div>
       </div>
       <div className="flex place-item-center">
-        <p className="text-2xl text-blue-900 dark:text-blue-100">System Enginner / Hacker</p>
+        <p className="text-2xl text-blue-900 dark:text-blue-100">System Engineer / Hacker</p>
       </div>
       <div className="flex place-items-center mt-5">
         <Link href={`mailto:${email}`} >
@@ -80,7 +80,6 @@ export default async function Home() {
           {text}
         </p>
       </div>
-
 
     </main>
   );
