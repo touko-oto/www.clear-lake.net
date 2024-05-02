@@ -55,5 +55,3 @@ export const getSNS = async () => {
     });
     return sns;
 }
-
-
