@@ -76,9 +76,9 @@ export default async function Home() {
       </div>
 
       <div className="flex mt-10">
-        <p className="font-sans flex w-full justify-center rounded-md border border-pink-800 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-pink-300 dark:bg-zinc-500/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 leading-relaxed whitespace-pre-wrap">
+        <div className="font-sans flex w-full justify-center rounded-md border border-pink-800 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-pink-300 dark:bg-zinc-500/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 leading-relaxed whitespace-pre-wrap">
           {text}
-        </p>
+        </div>
       </div>
 
     </main>
