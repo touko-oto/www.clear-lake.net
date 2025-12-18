@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: [ "images.microcms-assets.io"],
         loader: 'default',
         path: '/_next/image',
         deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -11,8 +10,8 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'microcms-assets.io',
-                pathname: '/assets/'
+                hostname: 'images.microcms-assets.io',
+                pathname: '/assets/**',
             },
         ],
     }
