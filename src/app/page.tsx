@@ -33,10 +33,10 @@ export default async function Home() {
           priority
         />
       </div>
-      <div className="flex place-item-center p-2 mt-5">
+      <div className="flex place-items-center p-2 mt-5">
         <div className="text-2xl text-blue-900 dark:text-blue-100">透湖 -Touko-</div>
       </div>
-      <div className="flex place-item-center">
+      <div className="flex place-items-center">
         <p className="text-2xl text-blue-900 dark:text-blue-100">System Engineer / Hacker</p>
       </div>
       <div className="flex place-items-center mt-5">
@@ -48,7 +48,7 @@ export default async function Home() {
             />
         </Link>
       </div>
-      <div className="flex place-item-center p-2 mt-5">
+      <div className="flex place-items-center p-2 mt-5">
         <p className="font-mono text-sm">
           touko127@localhost:~$ hack {server}.com.dummy
         </p>
