@@ -4,9 +4,9 @@ import { SlEnvolope } from "react-icons/sl";
 import { CustomIcon } from "./assets/custom-icon";
 import { getIcon, getProfile, getSNS } from "@/../libs/client";
 
-export default async function Home() {
+const server = Math.random().toString(32).substring(2);
 
-  const server = Math.random().toString(32).substring(2);
+export default async function Home() {
 
   const icon = JSON.parse(JSON.stringify((await getIcon()).image));
 
