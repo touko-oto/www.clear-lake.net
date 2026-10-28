@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      timezone: "Asia/Tokyo"
+    groups:
+      # マイナー・パッチ更新は1つのPRにまとめる
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      # @types/node は実行環境のNode.jsのメジャーに合わせて手動で上げる
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
